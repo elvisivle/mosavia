@@ -683,7 +683,7 @@ textarea {
 }
 
 #fh5co-hero {
-  background-color: #fff;
+  background-image: url(../images/bg_inner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -875,8 +875,8 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   margin-bottom: 40px;
 }
 #fh5co-works .fh5co-work-item .fh5co-category {
-  color: #095377;
-  font-size: 13px;
+  
+  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -1803,8 +1803,7 @@ ul.nav a{
     font-weight:bold;
 }
 
-#fh5co-main ul{
-    color:#095377;
+#fh5co-main li{
     text-align:left;
 }
 
