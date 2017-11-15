@@ -1807,3 +1807,20 @@ ul.nav a{
     text-align:left;
 }
 
+.document{
+    font-size: 18px;
+}
+
+.document span, #phones span{
+    font-size: 28px;
+    color: #095377;
+}
+.document a, #phones p{
+    color: #095377;
+    font-weight: normal;
+}
+
+.info h3{
+    color: #095377;
+}
+
