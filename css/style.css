@@ -1815,12 +1815,18 @@ ul.nav a{
     font-size: 28px;
     color: #095377;
 }
-.document a, #phones p{
+.document a, #phones p, #again-link{
     color: #095377;
     font-weight: normal;
 }
 
 .info h3{
     color: #095377;
+}
+#answer{
+    display: none;
+}
+#again{
+    display: none;
 }
 

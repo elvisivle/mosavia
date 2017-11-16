@@ -176,30 +176,32 @@
                 <div class="fh5co-spacer fh5co-spacer-sm"></div>
                 <div  class="row" id="fh5co-works">
                     <div id="callback" class="col-md-8 col-md-offset-2 text-center fh5co-section-heading work-box">
-                    <h2 class="fh5co-lead">Оформить заявку</h2>
-                        <form  action="#" method="post">
+                        <h2 class="fh5co-lead">Оформить заявку</h2>
+                        <div id="answer"></div>
+                        <div id="again"><a id="again-link" href="#">Отправить еще раз</a></div>
+                        <form  class="callBackForm" action="mail.php" method="post">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="name" class="sr-only">Email</label>
-                                        <input placeholder="Имя" id="name" type="text" class="form-control input-lg">
+                                    <label for="name" class="sr-only">Name</label>
+                                    <input placeholder="Имя" id="name" name="name" type="text" class="form-control input-lg" required="required">
                                 </div>	
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="email" class="sr-only">Email</label>
-                                    <input placeholder="Электронная почта" id="email" type="text" class="form-control input-lg">
+                                    <input placeholder="Электронная почта" id="email" name="email" type="email" class="form-control input-lg">
                                 </div>	
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="city" class="sr-only">City</label>
-                                    <input placeholder="Город" id="city" type="text" class="form-control input-lg">
+                                    <input placeholder="Город" id="city" name="city" type="text" class="form-control input-lg">
                                 </div>	
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="message" class="sr-only">Message</label>
-                                    <textarea placeholder="Сообщение" id="message" class="form-control input-lg" rows="3"></textarea>
+                                    <textarea placeholder="Сообщение" id="message" name="message" class="form-control input-lg" rows="3"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12">

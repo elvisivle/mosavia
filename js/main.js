@@ -420,3 +420,31 @@
 
 
 }());
+
+
+$(document).ready(function (){
+    $('form').submit(function (e){
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: 'mail.php',
+            data: $(this).serialize(),
+            success: function (data){
+                if (data){
+                    $('#answer').show().html('Письмо отправлено');
+                    $('.callBackForm').hide();
+                } else {
+                   $('#answer').show().attr('class', 'text-danger').html('Письмо не отправлено'); 
+                }
+                $('#again').show();
+            }
+         });
+    });
+    
+    $('#again-link').click(function (e){
+        e.preventDefault();
+        $('#again').hide();
+        $('#answer').hide();
+        $('.callBackForm').show();
+    });
+});
