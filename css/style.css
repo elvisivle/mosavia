@@ -606,45 +606,47 @@ textarea {
   list-style: none;
 }
 
-#fh5co-logo-mobile-wrap {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  display: block;
-  height: 44px;
-  left: 0;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 100%;
-  z-index: 10001;
-  background: #2b303b;
-  color: #ccc;
-  -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-}
-#fh5co-logo-mobile-wrap h1 {
-  padding: 0;
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-}
-#fh5co-logo-mobile-wrap h1 a {
-  border-bottom: none !important;
-  color: #ccc;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
+
 
 @media screen and (max-width: 768px) {
   #fh5co-content {
     margin-bottom: 4em;
   }
+  
+  #fh5co-logo-mobile-wrap {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    height: 44px;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+    background: #2b303b;
+    color: #ccc;
+    -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    }
+    #fh5co-logo-mobile-wrap h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #fh5co-logo-mobile-wrap h1 a {
+      border-bottom: none !important;
+      color: #ccc;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
 }
 
 #fh5co-sidebar {
@@ -1828,5 +1830,27 @@ ul.nav a{
 }
 #again{
     display: none;
+}
+.rose-wraper{
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #fh5co-menu-wrap{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .rose, .phones{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rose-wraper{
+        margin-top: 75px;
+    }
 }
 

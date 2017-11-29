@@ -35,10 +35,10 @@
 				$('#fh5co-logo-mobile-wrap').append('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white " data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>');
 				$('<div id="fh5co-mobile-menu">').append(clone).insertBefore('#fh5co-header-section');
 
-				$('#fh5co-header-section').hide();
+				$('#fh5co-header-section').show();
 				$('#fh5co-logo-mobile-wrap').show();
 			} else {
-				$('#fh5co-header-section').hide();
+				$('#fh5co-header-section').show();
 				$('#fh5co-logo-mobile-wrap').show();
 			}
 
