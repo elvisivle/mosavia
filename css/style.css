@@ -1749,7 +1749,7 @@ ul.nav a{
 }
 
 .header-info{
-    background: url(../images/999.png) no-repeat;
+    background: url(../images/logo.png) no-repeat;
 }
 .rose{
     background: url(../images/rose.png) no-repeat;
@@ -1861,6 +1861,27 @@ ul.nav a{
     }
     .phones{
         text-align: left;
+    }
+    .fh5co-work-item{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:525px){
+    .header-info{
+        display:block; 
+        width:100%; 
+        margin-top:20px; 
+        padding-left:60px;
+    }
+    .logo-wraper .logo{
+        font-size: 16px;
+    }
+    .header-info{
+        background: url(../images/logo_mobile.png) no-repeat;
+    }
+    .direction{
+        font-size: 10px;
     }
 }
 
