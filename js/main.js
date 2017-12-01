@@ -435,7 +435,7 @@ $(document).ready(function (){
                     $('#answer').show().html('Письмо отправлено');
                     $('.callBackForm').hide();
                 } else {
-                   $('#answer').show().attr('class', 'text-danger').html('Письмо не отправлено'); 
+                   $('#answer').show().attr('class', 'text-danger').html('Письмо не отправлено');
                 }
                 $('#again').show();
             }
