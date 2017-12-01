@@ -1885,3 +1885,9 @@ ul.nav a{
     }
 }
 
+@media screen and (max-width:326px){
+    #fh5co-hero .fh5co-hero-wrap{
+        padding-top: 13em;
+    }
+}
+
