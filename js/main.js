@@ -33,6 +33,7 @@
 				$('<div id="fh5co-logo-mobile-wrap">').append(cloneLogo).insertBefore('#fh5co-header-section');
 				// $('#fh5co-logo-mobile-wrap').append('<a href="#" id="fh5co-mobile-menu-btn"><i class="ti-menu"></i></a>')
 				$('#fh5co-logo-mobile-wrap').append('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white " data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>');
+                                $('#fh5co-logo-mobile-wrap').append('<i class="ti-mobile"></i>+7 929 665 72 11<br /><i class="ti-mobile"></i>+7 915 309 81 97');
 				$('<div id="fh5co-mobile-menu">').append(clone).insertBefore('#fh5co-header-section');
 
 				$('#fh5co-header-section').show();

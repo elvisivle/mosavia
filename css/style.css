@@ -745,7 +745,7 @@ textarea {
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .fh5co-hero-wrap {
-    padding-top: 4em;
+   
   }
 }
 #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro {
@@ -1851,6 +1851,16 @@ ul.nav a{
 @media screen and (max-width: 768px) {
     .rose-wraper{
         margin-top: 75px;
+        height: 50px;
+    }
+    .rose-wraper div{
+        height: 50px;
+    }
+    .logo-wraper{
+        margin: 0;
+    }
+    .phones{
+        text-align: left;
     }
 }
 
