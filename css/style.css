@@ -21,11 +21,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
-  color: #8b969c;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
   }
 }
@@ -55,11 +55,11 @@ a {
   border-bottom: 1px solid #ccc;
 }
 a:hover, a:focus, a:active {
-  color: #50c0de;
+  color: #50c098;
 }
 a:hover, a:focus, a:active {
   outline: none;
-  color: #2e2e2e;
+  color: #2e2eff;
   text-decoration: none;
   border-bottom: 1px solid #90d7ea;
 }
@@ -95,7 +95,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 28px;
 }
 
